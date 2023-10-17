@@ -11,7 +11,7 @@
     "license": "AGPL-3",
     "website": "https://github.com/OCA/account-financial-tools",
     "category": "Accounting & Finance",
-    "depends": ["account","web","base"],
+    "depends": ["account"],
     "data": [
         "security/ir.model.access.csv",
         "security/account_spread_security.xml",
@@ -23,12 +23,5 @@
         "wizards/account_spread_invoice_line_link_wizard.xml",
         "data/spread_cron.xml",
     ],
-    
-    'assets': {
-        'web.assets_backend': [
-            'account_spread_cost_revenue/static/src/js/account_spread.js',
-            'account_spread_cost_revenue/static/src/scss/account_spread.scss'
-        ],
-    },
     "installable": True,
 }
