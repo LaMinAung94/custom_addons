@@ -19,7 +19,7 @@
         "views/account_move.xml",
         "views/res_company.xml",
         "views/account_spread_template.xml",
-        "templates/assets.xml",
+        # "templates/assets.xml",
         "wizards/account_spread_invoice_line_link_wizard.xml",
         "data/spread_cron.xml",
     ],
